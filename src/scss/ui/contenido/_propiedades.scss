@@ -65,7 +65,7 @@
     }
 
     &__enlace{
-        @include m.boton(v.$primario, v.$blanco);
         display: block;
+        @include m.boton(v.$primario, v.$blanco);
     }
 }
